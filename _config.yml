@@ -1,18 +1,18 @@
-title: Abhishek Nagekar
+title: Sang-hwa Lee
 description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+site_title: 'Sang-hwa Lee'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: sanghwa318
 blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+email: sanghwa318@gmail.com
+keybase_username: 이상화
+twitter_username: 
+reddit_username: 
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
@@ -23,5 +23,5 @@ google_analytics:
 remote_theme : abhn/portfolio
 
 # Site Settings
-url                      : "https://sanghwa.github.io" # the base hostname & protocol for your site e.g. "https://abhn.github.io/portfolio"
+url                      : "https://sanghwa318.github.io" # the base hostname & protocol for your site e.g. "https://abhn.github.io/portfolio"
 baseurl                  : "/portfolio" # the subpath of your site, e.g. "/blog"
