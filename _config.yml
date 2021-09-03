@@ -22,5 +22,6 @@ google_analytics:
 
 remote_theme : abhn/portfolio
 
+# Site Settings
 url                      : "https://sanghwa.github.io" # the base hostname & protocol for your site e.g. "https://abhn.github.io/portfolio"
 baseurl                  : "/portfolio" # the subpath of your site, e.g. "/blog"
