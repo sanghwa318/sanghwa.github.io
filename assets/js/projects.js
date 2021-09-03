@@ -9,8 +9,7 @@ let render_projects = (slug) => {
     $('.white-button').removeClass('white-button-hover');
     $(`#${slug}`).addClass('white-button-hover');
 
-    let projects_obj = [
-        {
+    let projects_obj = [{
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/abhn/Mporter',
             title: 'Mporter',
@@ -157,10 +156,9 @@ let render_projects = (slug) => {
     ]
 
     let projects = [];
-    if(slug == 'all') {
+    if (slug == 'all') {
         projects = projects_obj.map(project_mapper);
-    } 
-    else {
+    } else {
         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
     }
     projects_area.hide().html(projects).fadeIn();
