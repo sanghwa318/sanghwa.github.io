@@ -19,3 +19,8 @@ profile_picture: assets/images/pp.jpg
 
 # Google Analytics ID
 google_analytics: 
+
+remote_theme : abhn/portfolio
+
+url                      : "https://sanghwa.github.io" # the base hostname & protocol for your site e.g. "https://abhn.github.io/portfolio"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
